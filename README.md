@@ -30,6 +30,7 @@ You'll need:
 1. Clone the repo:
 ```bash
 git clone [repository-url]
+or simply download manually 
 cd [repository-name]
 ```
 
