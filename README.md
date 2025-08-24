@@ -7,32 +7,19 @@ A Jupyter notebook-based analysis of climate change discussions on Reddit, focus
 ### Python & Environment
 - Python 3.8 or newer
 - Jupyter Notebook
-- Works on Windows, macOS, and Linux
 
 ### Key Libraries
 - **Data Handling**: pandas, numpy
 - **Text Analysis**: 
   - nltk
   - spacy
-  - gensim
   - scikit-learn
 - **Visualization**: matplotlib, seaborn, plotly
 - **Machine Learning**: tensorflow-hub, umap-learn
 
-### Basic Setup
-You'll need:
-- 8GB RAM
-- 2GB free disk space
-- Any modern CPU
-
-## Getting Started
-
 1. Clone the repo:
 ```bash
-git clone [repository-url]
-or simply download manually 
-cd [repository-name]
-```
+git clone 
 
 2. Set up your environment:
 ```bash
@@ -65,30 +52,15 @@ python -m spacy download en_core_web_sm
 
 ## Running the Analysis
 
-1. Start Jupyter:
-```bash
-jupyter notebook
-```
+1. Open `reddit_Paper1_main.ipynb`
 
-2. Open `reddit_Paper1_main.ipynb`
-
-3. The notebook will:
+2. The notebook will:
    - Process the Reddit data
    - Run topic modeling
    - Create visualizations
    - Show analysis results
 
-Typical runtime is about 10 minutes for a full analysis.
-
-## Need Help?
-
-- Check existing issues first
-- Can't find an answer? Open a new issue
-- Include your OS and Python version when reporting problems
-
-## License
-
-[Add your license here]
+Typical runtime is about 5 minutes for a full analysis if you downloaded the data from zenodo.
 
 ## Dataset Citation
 
